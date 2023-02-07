@@ -4,7 +4,7 @@ public class Program02 {
 
 	public static void main(String[] args) {
 		Program02 calculation = new Program02(); //Object creation
-		add(20, 30); //calling the static add inside main
+		add(20, 30); //calling the static method 'add()' inside main
 		calculation.sub(30, 20); //calling non-static inside static method hence using Object of Program02 class
 		calculation.mul(20, 5);
 		
