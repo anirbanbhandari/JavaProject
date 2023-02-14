@@ -13,24 +13,21 @@ public class Program05 {
 		System.out.println("Enter the third number:- ");
 		int c=x.nextInt();
 		x.close();
-		
-		
-		System.out.println("Start Program...");
-		
+		System.out.println("Start Program...");																																								
 		if((a>b) && (a>c))
 		{
-			System.out.println("First number is the greatest...!");
+			System.out.println("First number is the largest...!");
 		}
 		else if((b>a) && (b>c)) 
 		{
-			System.out.println("Second number is the greatest...!");
+			System.out.println("Second number is the largest...!");
 		}
 		else 
 		{
-			System.out.println("Third number is the greatest...!");
+			System.out.println("Third number is the largest	...!");
 		}
 		
-		System.out.println("End Program...");
+			System.out.println("End Program...");
 		
 	}
 
