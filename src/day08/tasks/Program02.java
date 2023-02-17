@@ -4,9 +4,9 @@ public class Program02 {
 
 	public static void main(String[] args) {
 		
-		int a=200;
-		int b=100;
-		int c=200;
+		int a=500;
+		int b=300;
+		int c=300;
 		int d=400;
 
 		if(a>=b && a>=c && a>=d)
