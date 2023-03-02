@@ -17,11 +17,10 @@ public class Program04 {
 			}
 			
 			else {
-				for(int i=2;i<=y/2;i++)
+				for(int i=2;i<=y;i++)
 					{
 					if(y%i==0) {
 						isPrime = false;
-						break;
 					}
 						
 					}
